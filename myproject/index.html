@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1 class="headi1">this is our git work thorugh  wich we can do collaboration with our team mates</h1>
+    <button class="btn1">show btn</button>
+    <button class="btn2">hide btn</button>
+    <button class="btn3">toggle btn</button>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        $(".btn1").click(function () {
+          $(".headi1").show(1000)  
+        })
+        $(".btn2").click(function () {
+          $(".headi1").hide(1000)  
+        })
+        $(".btn3").click(function () {
+          $("headi1").toggle(1000)  
+        })
+    })
+</script>
